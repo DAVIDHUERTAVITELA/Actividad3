@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
 
         System.out.println("\n1: Mezclar | 2: Primera carta | 3: Carta al azar | 4: Arreglo 5 cartas ");
@@ -45,16 +44,12 @@ public class Main {
         } while(opc>=1 && opc<5);
 
         if (opc==5){                          //SI se selecciona un numero igual que 5, qes la salida
-
             System.out.println("\nSaliendo...");   //Muestra el siguiente mensaje
-
         }
 
-       if (opc>5){                          //SI se selecciona un numero mayor que 5, que no forma parte de las opciones
-
+        if (opc>5){                          //SI se selecciona un numero mayor que 5, que no forma parte de las opciones
            System.out.println("\nError");   //Muestra el siguiente mensaje
-
-       }
+        }
     }
 }
 
