@@ -59,7 +59,6 @@ public class Deck {
 
     //Opc. 4. Regresar un arreglo de cinco cartas
     public void hand() {
-
         if (cards.size() >= 5) {                        //SI la cantidad de cartas es igual o mayor que 5
             System.out.println("");
 
