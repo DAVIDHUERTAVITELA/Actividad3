@@ -15,6 +15,6 @@ public class Card {
 
    @Override                                       //Sobrescritura de subclase a superclase por metodo definido
    public String toString() {                      //Heredado de Object y se sobrescribe para imprimir en el formato solicitado
-        return palo+ ", " +color+ ", " +valor;  //Formato de carta o presentacion
-    }
+        return palo+ ", " +color+ ", " +valor;     //Formato de carta o presentacion
+   }
 }

@@ -47,7 +47,7 @@ public class Main {
             System.out.println("\nSaliendo...");   //Muestra el siguiente mensaje
         }
 
-        if (opc>5){                          //SI se selecciona un numero mayor que 5, que no forma parte de las opciones
+        if (opc<1 || opc>5){                          //SI se selecciona un numero mayor que 5, que no forma parte de las opciones
            System.out.println("\nError");   //Muestra el siguiente mensaje
         }
     }
